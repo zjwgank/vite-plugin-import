@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-import",
-  "version": "1.0.0",
+  "version": "1.1.0-minor.0",
   "description": "resolve import not found",
   "main": "dist/index.js",
   "scripts": {
