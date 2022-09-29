@@ -1,7 +1,7 @@
 /*
  * @Author: zhujinwang
  * @Date: 2022-09-29 10:43:40
- * @LastEditTime: 2022-09-29 15:00:08
+ * @LastEditTime: 2022-09-29 15:31:08
  * @LastEditors: zhujinwang
  * @Description: 插件入口
  * 可以输入预定的版权声明、个性签名、空行等
@@ -16,7 +16,7 @@ import { isRegExp } from 'lodash'
 import { TPluginArgs } from "@model"
 
 
-export default function (args?: TPluginArgs): PluginOption {
+export default function dependenceImport (args?: TPluginArgs): PluginOption {
     return {
         // 插件名称
         name: "vite-plugin-import",
