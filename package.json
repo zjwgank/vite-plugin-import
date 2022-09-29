@@ -2,7 +2,7 @@
   "name": "vite-plugin-import",
   "version": "1.1.2",
   "description": "resolve import not found",
-  "main": "dist/index.js",
+  "main": "dist/index.mjs",
   "scripts": {
     "dev": "pnpm run build --watch",
     "build": "rimraf dist && tsup src/index.ts --dts --format cjs,esm"

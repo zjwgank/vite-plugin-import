@@ -1,7 +1,7 @@
 /*
  * @Author: zhujinwang
  * @Date: 2022-09-29 10:43:40
- * @LastEditTime: 2022-09-29 15:31:08
+ * @LastEditTime: 2022-09-29 15:36:16
  * @LastEditors: zhujinwang
  * @Description: 插件入口
  * 可以输入预定的版权声明、个性签名、空行等
@@ -11,9 +11,12 @@ import { parse as parseImports } from "es-module-lexer";
 import MagicString from "magic-string";
 import path from 'path'
 import fs from 'fs'
-import { isRegExp } from 'lodash'
+import loadash from 'lodash'
+
 
 import { TPluginArgs } from "@model"
+
+const { isRegExp } = loadash
 
 
 export default function dependenceImport (args?: TPluginArgs): PluginOption {
